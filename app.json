@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/classic/classic",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/include/include",
+    "components/like/like"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "围城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

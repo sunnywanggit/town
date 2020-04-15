@@ -1,0 +1,4 @@
+<!--pages/include/include.wxml-->
+<template name="include">
+    <text>this is include.wxml</text>
+</template>
