@@ -1,3 +1,4 @@
+import {url,appkey} from '../../config.js'
 // pages/classic/classic.js
 Page({
 
@@ -5,21 +6,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      test:1
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log('url',url);
     wx.request({
       url:'http://bl.7yue.pro/v1/classic/latest',
       header:{
-          //TODO我不清楚header里面到底可以放什么东西，这个下来要搞清楚
+          //TODO 我不清楚header里面到底可以放什么东西，这个下来要搞清楚
         appkey:'VzyfROWyHh5I74Sd'
       },
-      success(res) {
-        console.log(res);
+      success:(res)=>{
+        console.log(this.data.test);
       }
 
     })
