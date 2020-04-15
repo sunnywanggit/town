@@ -1,5 +1,8 @@
-import {url,appkey} from '../../config.js'
-// pages/classic/classic.js
+import {HTTP} from '../../util/http.js'
+
+//如果想要使用类里面的方法，首先要做的是实例化一个类
+let http = new HTTP()
+
 Page({
 
   /**
@@ -13,18 +16,20 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('url',url);
-    wx.request({
-      url:'http://bl.7yue.pro/v1/classic/latest',
-      header:{
-          //TODO 我不清楚header里面到底可以放什么东西，这个下来要搞清楚
-        appkey:'VzyfROWyHh5I74Sd'
-      },
-      success:(res)=>{
-        console.log(this.data.test);
-      }
-
-    })
+      http.request({
+        url:'/classic/latest',
+        success:(res)=>{
+          console.log(res);
+        }
+      })
+    // console.log(http.request);
+    // console.log(options);
+    // wx.request({
+    //   url:'http://bl.7yue.pro/v1',
+    //   header:{
+    //     appkey:'VzyfROWyHh5I74Sd'
+    //   },
+    // })
 
   },
 
