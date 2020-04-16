@@ -1,1 +1,7 @@
-<s-like></s-like>
+<view>
+    <s-like
+            bind:like="onLike"
+            count="{{classicData.fav_nums}}" like="{{classicData.like_status}}"></s-like>
+    <s-movie text="{{classicData.content}}" img="{{classicData.image}}"></s-movie>
+
+</view>

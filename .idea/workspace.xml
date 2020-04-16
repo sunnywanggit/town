@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7afa2069-e3f1-4fae-90b8-83f5e825dd52" name="默认更改列表" comment="">
+    <list default="true" id="7afa2069-e3f1-4fae-90b8-83f5e825dd52" name="默认更改列表" comment="http.js模块封装完成">
+      <change afterPath="$PROJECT_DIR$/components/classic/movie/imgs/movie@tag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/classic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/like.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/like/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/like/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/like/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/like/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/like/like.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/like/like.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/like/like.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/like/like.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/classic/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/classic/classic.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/include/include.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/include/include.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/include/include.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/include/include.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test/test.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test/test.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/util/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/http.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +46,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/classic/movie/imgs" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/classic/movie/imgs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/imgs" />
     </key>
@@ -51,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586828731594</updated>
       <workItem from="1586828733273" duration="6048000" />
-      <workItem from="1586842358830" duration="27065000" />
+      <workItem from="1586842358830" duration="37705000" />
     </task>
     <task id="LOCAL-00001" summary="http.js类初步封装完成">
       <created>1586962396408</created>
@@ -60,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586962396408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="http.js模块封装完成">
+      <created>1586965008848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586965008848</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="http.js类初步封装完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="http.js类初步封装完成" />
+    <MESSAGE value="http.js模块封装完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="http.js模块封装完成" />
   </component>
 </project>

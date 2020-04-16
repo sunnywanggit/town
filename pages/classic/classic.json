@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "s-like": "../../components/like/index"
+    "s-like": "../../components/like/index",
+    "s-movie": "../../components/classic/movie"
   }
 }

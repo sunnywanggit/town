@@ -1,5 +1,6 @@
 import {config} from '../config.js'
 
+// 错误码，根据不同的错误状态，给出不同的提示
 const tips={
     1:'抱歉，出现了一个错误',
     0:'OK, 成功',
@@ -34,7 +35,7 @@ class HTTP {
                 if(code.startsWith('2')){
                     // console.log(res);
                     // TODO 这里我不懂，为什么这里这样写了之后，就可以在 classic 里面去调用success了？
-                    params.success(res)
+                    params.success && params.success(res)
                 }else{
                     // 服务器异常时需要处理的错误
                     let error_code = res.data.error_code

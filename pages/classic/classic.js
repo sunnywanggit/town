@@ -1,84 +1,35 @@
-import {HTTP} from '../../util/http.js'
+import {ClassicModel} from "../../models/classic";
+import {LikeModel} from "../../models/like";
 
-//如果想要使用类里面的方法，首先要做的是实例化一个类
-let http = new HTTP()
+let classicModel = new ClassicModel()
+let likeModel = new LikeModel()
 
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-      test:1
+    classicData:null
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
-      http.request({
-        url:'/classic/latest',
-        success:(res)=>{
-          console.log(res);
-        }
+    // 用回调函数的方式去获取异步操作的return结果，这个操作真的骚啊，记下来
+    // 这个方法就叫做，使用回调函数剥夺了我们使用return的能力
+    classicModel.getLatest((res)=>{
+      console.log(res.data);
+      this.setData({
+        classicData:res.data
       })
-    // console.log(http.request);
-    // console.log(options);
-    // wx.request({
-    //   url:'http://bl.7yue.pro/v1',
-    //   header:{
-    //     appkey:'VzyfROWyHh5I74Sd'
-    //   },
-    // })
-
+    })
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
+  //监听子组件传过来的自定义事件，并作出相应处理
+  onLike(e){
+    console.log(e.detail.behavior);
+    let behavior = e.detail.behavior
+    let classicData = this.data.classicData
+    console.log(this.data.classicData);
 
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+    //如果用户点赞了
+      likeModel.like(behavior,classicData.id,classicData.type)
   }
+
 })
