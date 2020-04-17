@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7afa2069-e3f1-4fae-90b8-83f5e825dd52" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/imgs/tab/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tab/book@highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tab/classic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tab/classic@highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tab/my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/tab/my@highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/book.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/classic/classic.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.wxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +26,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/classic/essay/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs/tab" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imgs/tab" />
       <recent name="$PROJECT_DIR$/components/classic/essay/imgs" />
       <recent name="$PROJECT_DIR$/components/classic/music/imgs" />
       <recent name="$PROJECT_DIR$/components/navi/imgs" />
@@ -59,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586828731594</updated>
       <workItem from="1586828733273" duration="6048000" />
-      <workItem from="1586842358830" duration="72842000" />
+      <workItem from="1586842358830" duration="78943000" />
     </task>
     <task id="LOCAL-00001" summary="http.js类初步封装完成">
       <created>1586962396408</created>
@@ -96,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587105722557</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="音乐播放功能完成">
+      <created>1587111495440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587111495441</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +132,8 @@
     <MESSAGE value="like 组件数据处理部分完成" />
     <MESSAGE value="数据缓存" />
     <MESSAGE value="使用import复用wxss" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用import复用wxss" />
+    <MESSAGE value="音乐播放功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="音乐播放功能完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

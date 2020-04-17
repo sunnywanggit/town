@@ -1,12 +1,18 @@
 {
   "pages": [
+    "pages/book/book",
     "pages/classic/classic",
+    "pages/my/my",
     "components/classic/movie/index",
-    "pages/logs/logs",
     "components/classic/music/index",
-    "components/classic/essay/index"
+    "components/classic/essay/index",
+    "pages/logs/logs",
+    "components/book/books/index"
   ],
-  "requiredBackgroundModes": ["audio", "location"],
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -14,14 +20,27 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "color": "#c7c7c7",
     "list": [
       {
         "pagePath": "pages/classic/classic",
-        "text": "movie"
+        "text": "流行",
+        "iconPath": "imgs/tab/classic.png",
+        "selectedIconPath": "imgs/tab/classic@highlight.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "pagePath": "pages/book/book",
+        "text": "书籍",
+        "iconPath": "imgs/tab/book.png",
+        "selectedIconPath": "imgs/tab/book@highlight.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "imgs/tab/my.png",
+        "selectedIconPath": "imgs/tab/my@highlight.png"
       }
     ]
   },
