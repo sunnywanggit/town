@@ -25,12 +25,13 @@
             wx:elif="{{classicData.type === 200 }}"
             text="{{classicData.content}}"
             img="{{classicData.image}}"
+            src="{{classicData.url}}"
     >
     </s-music>
 
     <!--    句子组件-->
     <s-essay
-            wx:else="{{classicData.type === 200 }}"
+            wx:else="{{classicData.type === 300 }}"
             text="{{classicData.content}}"
             img="{{classicData.image}}"
     >

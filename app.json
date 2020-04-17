@@ -6,6 +6,7 @@
     "components/classic/music/index",
     "components/classic/essay/index"
   ],
+  "requiredBackgroundModes": ["audio", "location"],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
