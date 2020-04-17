@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7afa2069-e3f1-4fae-90b8-83f5e825dd52" name="默认更改列表" comment="http.js模块封装完成">
-      <change afterPath="$PROJECT_DIR$/components/classic/movie/imgs/movie@tag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/classic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/like.js" afterDir="false" />
+    <list default="true" id="7afa2069-e3f1-4fae-90b8-83f5e825dd52" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/components/classic/classic-behavior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/classic/essay/imgs/essay@tag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/classic/music/imgs/music@tag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/classic/music/imgs/player@pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/classic/music/imgs/player@play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navi/imgs/triangle.dis@left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navi/imgs/triangle.dis@right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navi/imgs/triangle@left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navi/imgs/triangle@right.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/like/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/like/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/like/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/like/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/like/like.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/like/like.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/like/like.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/like/like.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/classic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/like.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/like.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/classic/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/classic/classic.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/include/include.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/include/include.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/include/include.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/include/include.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +36,18 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/classic/movie/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/classic/essay/imgs" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/classic/essay/imgs" />
+      <recent name="$PROJECT_DIR$/components/classic/music/imgs" />
+      <recent name="$PROJECT_DIR$/components/navi/imgs" />
       <recent name="$PROJECT_DIR$/components/classic/movie/imgs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/classic" />
       <recent name="$PROJECT_DIR$/imgs" />
     </key>
   </component>
@@ -80,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586828731594</updated>
       <workItem from="1586828733273" duration="6048000" />
-      <workItem from="1586842358830" duration="37705000" />
+      <workItem from="1586842358830" duration="63901000" />
     </task>
     <task id="LOCAL-00001" summary="http.js类初步封装完成">
       <created>1586962396408</created>
@@ -96,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586965008848</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="like 组件数据处理部分完成">
+      <created>1587013268161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587013268161</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +117,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="http.js类初步封装完成" />
     <MESSAGE value="http.js模块封装完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="http.js模块封装完成" />
+    <MESSAGE value="like 组件数据处理部分完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="like 组件数据处理部分完成" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/classic/date/index.js</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

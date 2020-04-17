@@ -1,7 +1,32 @@
-<view>
-    <s-like
-            bind:like="onLike"
-            count="{{classicData.fav_nums}}" like="{{classicData.like_status}}"></s-like>
-    <s-movie text="{{classicData.content}}" img="{{classicData.image}}"></s-movie>
+<view class="container">
+    <view class="header">
+        <!--        日期组件-->
+        <s-date class="date" index="{{classicData.index}}"></s-date>
 
+        <!--    点赞组件-->
+        <s-like
+                class="like"
+                bind:like="onLike"
+                count="{{classicData.fav_nums}}"
+                like="{{classicData.like_status}}"
+        ></s-like>
+    </view>
+
+    <!--   电影组件-->
+    <!--        <s-movie-->
+    <!--                text="{{classicData.content}}"-->
+    <!--                img="{{classicData.image}}"-->
+    <!--        ></s-movie>-->
+    <!--    音乐组件-->
+    <!--    <s-music></s-music>-->
+
+    <!--    句子组件-->
+    <s-essay></s-essay>
+    <s-navi
+            class="navi"
+            first="{{first}}"
+            latest="{{latest}}"
+            bind:left="onPrev"
+            bind:right="onNext"
+            title="{{classicData.title}}"></s-navi>
 </view>

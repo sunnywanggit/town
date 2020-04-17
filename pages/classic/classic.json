@@ -1,6 +1,10 @@
 {
   "usingComponents": {
     "s-like": "../../components/like/index",
-    "s-movie": "../../components/classic/movie"
+    "s-movie": "../../components/classic/movie",
+    "s-music": "../../components/classic/music",
+    "s-music": "../../components/classic/essay",
+    "s-date": "../../components/classic/date",
+    "s-navi": "../../components/navi/navi"
   }
 }
