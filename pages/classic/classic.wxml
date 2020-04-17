@@ -7,26 +7,41 @@
         <s-like
                 class="like"
                 bind:like="onLike"
-                count="{{classicData.fav_nums}}"
-                like="{{classicData.like_status}}"
-        ></s-like>
+                count="{{likeData.fav_nums}}"
+                like="{{likeData.like_status}}"
+        >
+        </s-like>
     </view>
 
     <!--   电影组件-->
-    <!--        <s-movie-->
-    <!--                text="{{classicData.content}}"-->
-    <!--                img="{{classicData.image}}"-->
-    <!--        ></s-movie>-->
+    <s-movie
+            wx:if="{{classicData.type === 100 }}"
+            text="{{classicData.content}}"
+            img="{{classicData.image}}"
+    ></s-movie>
+
     <!--    音乐组件-->
-    <!--    <s-music></s-music>-->
+    <s-music
+            wx:elif="{{classicData.type === 200 }}"
+            text="{{classicData.content}}"
+            img="{{classicData.image}}"
+    >
+    </s-music>
 
     <!--    句子组件-->
-    <s-essay></s-essay>
+    <s-essay
+            wx:else="{{classicData.type === 200 }}"
+            text="{{classicData.content}}"
+            img="{{classicData.image}}"
+    >
+    </s-essay>
+
     <s-navi
             class="navi"
             first="{{first}}"
             latest="{{latest}}"
             bind:left="onPrev"
             bind:right="onNext"
-            title="{{classicData.title}}"></s-navi>
+            title="{{classicData.title}}">
+    </s-navi>
 </view>

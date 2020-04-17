@@ -9,6 +9,7 @@ Page({
         classicData: null,
         latest: true,
         first: false,
+        likeData:null
     },
 
     onLoad: function (options) {
@@ -19,6 +20,7 @@ Page({
             console.log(res.data);
             this.setData({
                 classicData: res.data,
+                likeData:res.data
             })
         })
 
@@ -51,6 +53,7 @@ Page({
         //获取当前期刊数
         let index = this.data.classicData.index
         classicModel.getClassic(index,nextOrPrev, (res) => {
+            this._getLikeStatus(res.data.type,res.data.id)
             this.setData({
                 classicData: res.data,
                 first:classicModel.isFirst(res.data.index),
@@ -58,6 +61,17 @@ Page({
             })
         })
 
+    },
 
+    //单独的获取点赞的状态， 避免该部分数据从缓存中读取时造成的bug，因为该部分的数据
+    //是需要实时更新的
+    _getLikeStatus(category,artID){
+        likeModel.getClassicLikeStatus(category,artID,(res)=>{
+            // console.log(res.data);
+            this.setData({
+                likeData:res.data
+            })
+        })
     }
+
 })

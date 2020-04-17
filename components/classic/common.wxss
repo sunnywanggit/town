@@ -1,0 +1,29 @@
+.content {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .img {
+    width: 750rpx;
+    height: 500rpx;
+}
+
+.content .tag {
+    /*border: 1px solid black;*/
+    position: relative;
+    width: 46rpx;
+    height: 142rpx;
+    top: -58rpx;
+    left: -310rpx;
+}
+
+.content text {
+    /*border: 1px solid black;*/
+    font-size: 36rpx;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    max-width: 550rpx;
+}
